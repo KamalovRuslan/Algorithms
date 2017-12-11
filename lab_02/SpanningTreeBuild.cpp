@@ -14,16 +14,16 @@ class TreeBuilder
 	const int INF = INT_MAX;
 
 	map<int, string> *headersMap;
-	vector <vector<int>> *graph;
+	vector <vector<int> > *graph;
 
-	vector<pair<int, int>> *tree;
+	vector<pair<int, int> > *tree;
 public:
 	TreeBuilder()
 	{
 		headersMap = new map<int, string>();
-		graph = new vector <vector<int>>();
+		graph = new vector <vector<int> >();
 		
-		tree = new vector<pair<int, int>>;
+		tree = new vector<pair<int, int> >;
 	}
 
 	~TreeBuilder()
